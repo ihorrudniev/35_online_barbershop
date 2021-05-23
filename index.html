@@ -1,98 +1,97 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>BarberShop</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/styles.min.css" />
-  </head>
-  <body>
-    <header class="header section--dark-bg">
-      <div class="container header__container">
-        <nav class="navigation">
-          <a class="logo header__logo" href="./"
-            ><img src="./images/logo.svg" width="69" height="56" alt="логотип барбершоп"
-          /></a>
 
-          <ul class="list menu menu--desktop">
-            <li class="menu__item"><a class="link menu__link" href="#about">О нас</a></li>
-            <li class="menu__item"><a class="link menu__link" href="#price">Услуги и цены</a></li>
-            <li class="menu__item"><a class="link menu__link" href="#team">Мастера</a></li>
-            <li class="menu__item"><a class="link menu__link" href="#contacts">Контакты</a></li>
-          </ul>
-        </nav>
-        <div class="header__contacts-wrap">
-          <a class="link" href="tel:+380441111111">+38 044 111 11 11</a>
-          <a class="link button header__button" href="#contact-us">Онлайн-запись</a>
-        </div>
-        <button class="mobile-menu-btn" data-menu-button>
-          <svg class="mobile-menu-icon">
-            <use class="icon-menu" href="./images/sprite.svg#icon-menu"></use>
-            <use class="icon-close" href="./images/sprite.svg#icon-close"></use>
-          </svg>
-        </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>BarberShop</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="./css/styles.min.css" />
+</head>
+
+<body>
+  <header class="header section--dark-bg">
+    <div class="container header__container">
+      <nav class="navigation">
+        <a class="logo header__logo" href="./"><img src="./images/logo.svg" width="69" height="56"
+            alt="логотип барбершоп" /></a>
+
+        <ul class="list menu menu--desktop">
+          <li class="menu__item"><a class="link menu__link" href="#about">О нас</a></li>
+          <li class="menu__item"><a class="link menu__link" href="#price">Услуги и цены</a></li>
+          <li class="menu__item"><a class="link menu__link" href="#team">Мастера</a></li>
+          <li class="menu__item"><a class="link menu__link" href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="header__contacts-wrap">
+        <a class="link" href="tel:+380441111111">+38 044 111 11 11</a>
+        <a class="link button header__button" href="#contact-us">Онлайн-запись</a>
       </div>
-    </header>
-
-    <div class="mobile-menu" data-menu>
-      <ul class="list menu">
-        <li class="menu__item"><a class="link menu__link" href="#about">О нас</a></li>
-        <li class="menu__item"><a class="link menu__link" href="#price">Услуги и цены</a></li>
-        <li class="menu__item"><a class="link menu__link" href="#team">Мастера</a></li>
-        <li class="menu__item"><a class="link menu__link" href="#contacts">Контакты</a></li>
-      </ul>
+      <button class="mobile-menu-btn" data-menu-button>
+        <svg class="mobile-menu-icon">
+          <use class="icon-menu" href="./images/sprite.svg#icon-menu"></use>
+          <use class="icon-close" href="./images/sprite.svg#icon-close"></use>
+        </svg>
+      </button>
     </div>
+  </header>
 
-    <!--  <main>
-      <section class="hero">
-        <div class="container hero__container section--dark-bg">
-          <div class="hero__content">
-            <p class="title-label title-label--light line" lang="en">A hair salon for men in Kyiv</p>
-            <h1 class="title hero__title title--light" lang="en">BarberShop</h1>
-            <p>Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со вкусом.</p>
-          </div>
-          <div class="hero__sidebar">
-            <ul class="list socials-list socials-list--rotate line">
-              <li class="socials-list__item">
-                <a class="link socials-list__link" href="" target="_blank" rel="noopener noreferrer">Instagram</a>
-              </li>
-              <li class="socials-list__item">
-                <a class="link socials-list__link" href="" target="_blank" rel="noopener noreferrer">Youtube</a>
-              </li>
-            </ul>
-          </div>
+  <div class="mobile-menu" data-menu>
+    <ul class="list menu">
+      <li class="menu__item"><a class="link menu__link" href="#about">О нас</a></li>
+      <li class="menu__item"><a class="link menu__link" href="#price">Услуги и цены</a></li>
+      <li class="menu__item"><a class="link menu__link" href="#team">Мастера</a></li>
+      <li class="menu__item"><a class="link menu__link" href="#contacts">Контакты</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__container section--dark-bg">
+        <div class="hero__content">
+          <p class="title-label title-label--light line" lang="en">A hair salon for men in Kyiv</p>
+          <h1 class="title hero__title title--light" lang="en">BarberShop</h1>
+          <p>Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со вкусом.</p>
         </div>
-      </section>
-      <section class="section about" id="about">
-        <div class="container flexbox">
-          <ul class="list flexbox content-box">
-            <li class="content-box">
-              <img src="./images/about/img-1.jpg" width="270" height="445" alt="Барбер за работой" />
+        <div class="hero__sidebar">
+          <ul class="list socials-list socials-list--rotate line">
+            <li class="socials-list__item">
+              <a class="link socials-list__link" href="" target="_blank" rel="noopener noreferrer">Instagram</a>
             </li>
-            <li class="content-box">
-              <img src="./images/about/img-2.jpg" width="270" height="445" alt="Стильная стрижка 2021" />
+            <li class="socials-list__item">
+              <a class="link socials-list__link" href="" target="_blank" rel="noopener noreferrer">Youtube</a>
             </li>
           </ul>
-          <div class="content-box">
-            <p class="title-label line">О нас</p>
-            <h2 class="title section__title">Лучший Барбершоп твоего города</h2>
-            <p>Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</p>
-            <p>
-              Мы команда, которая никогда не останавливается на достигнутом и жаждет перемен. И когда ты попадешь в руки
-              нашего мастера, то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной
-              волне". Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!
-            </p>
-            <button class="button" type="button" data-modal-open>Онлайн-запись</button>
-          </div>
         </div>
-      </section> -->
+      </div>
+    </section>
+    <section class="section about" id="about">
+      <div class="container flexbox">
+        <ul class="list flexbox content-box">
+          <li class="content-box">
+            <img src="./images/about/img-1.jpg" width="270" height="445" alt="Барбер за работой" />
+          </li>
+          <li class="content-box">
+            <img src="./images/about/img-2.jpg" width="270" height="445" alt="Стильная стрижка 2021" />
+          </li>
+        </ul>
+        <div class="content-box">
+          <p class="title-label line">О нас</p>
+          <h2 class="title section__title">Лучший Барбершоп твоего города</h2>
+          <p>Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</p>
+          <p>
+            Мы команда, которая никогда не останавливается на достигнутом и жаждет перемен. И когда ты попадешь в руки
+            нашего мастера, то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной
+            волне". Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!
+          </p>
+          <button class="button" type="button" data-modal-open>Онлайн-запись</button>
+        </div>
+      </div>
+    </section>
     <section class="section price section--dark-bg" id="price">
       <div class="container">
         <p class="title-label title-label--light line">Проведи время в компании лучших мастеров</p>
@@ -123,33 +122,33 @@
         <a class="link button button--light" href="#contact-us">Онлайн-запись</a>
       </div>
     </section>
-    <!-- <section class="section benefits">
-        <div class="container flexbox">
-          <ul class="list grid benefits-list content-box">
-            <li class="grid__item benefits__item">
-              <span class="benefits__number">600<sup>+</sup> </span>
-              <p>Довольных клиентов в день</p>
-            </li>
-            <li class="grid__item benefits__item">
-              <span class="benefits__number">50<sup>+</sup></span>
-              <p>Наград за отличный сервис</p>
-            </li>
-            <li class="grid__item benefits__item">
-              <span class="benefits__number">20<sup>+</sup></span>
-              <p>Лучших мастеров Киева</p>
-            </li>
-            <li class="grid__item benefits__item">
-              <span class="benefits__number">100<sup>+</sup></span>
-              <p>Подарков постоянным клиентам</p>
-            </li>
-          </ul>
-          <div class="content-box">
-            <p class="title-label line">старая традиционная школа</p>
-            <h2 class="title section__title">Почему приходят именно к нам?</h2>
-            <p>О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз прочитать.</p>
-          </div>
+    <section class="section benefits">
+      <div class="container flexbox">
+        <ul class="list grid benefits-list content-box">
+          <li class="grid__item benefits__item">
+            <span class="benefits__number">600<sup>+</sup> </span>
+            <p>Довольных клиентов в день</p>
+          </li>
+          <li class="grid__item benefits__item">
+            <span class="benefits__number">50<sup>+</sup></span>
+            <p>Наград за отличный сервис</p>
+          </li>
+          <li class="grid__item benefits__item">
+            <span class="benefits__number">20<sup>+</sup></span>
+            <p>Лучших мастеров Киева</p>
+          </li>
+          <li class="grid__item benefits__item">
+            <span class="benefits__number">100<sup>+</sup></span>
+            <p>Подарков постоянным клиентам</p>
+          </li>
+        </ul>
+        <div class="content-box">
+          <p class="title-label line">старая традиционная школа</p>
+          <h2 class="title section__title">Почему приходят именно к нам?</h2>
+          <p>О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз прочитать.</p>
         </div>
-      </section>-->
+      </div>
+    </section>
     <section class=" section team" id="team">
       <div class="container">
         <p class="title-label line">для настоящих ценителей атмосферы</p>
@@ -157,36 +156,18 @@
         <ul class="list team-list grid">
           <li class="grid__item team__item">
             <picture>
-              <source
-                srcset="./images/team/desktop/img1_desktop.webp 1x, ./images/team/desktop/img1@2x_desktop.webp 2x"
-                media="(min-width: 1200px)"
-                type="image/webp"
-              />
-              <source
-                srcset="./images/team/tablet/img1_tablet.webp 1x, ./images/team/tablet/img1@2x_tablet.webp 2x"
-                media="(min-width: 768px)"
-                type="image/webp"
-              />
-              <source
-                srcset="./images/team/mobile/img1_mobile.webp 1x, ./images/team/mobile/img1@2x_mobile.webp 2x"
-                media="(max-width: 767px)"
-                type="image/webp"
-              />
-              <source
-                srcset="./images/team/desktop/img1_desktop.jpg 1x, ./images/team/desktop/img1@2x_desktop.jpg 2x"
-                media="(min-width: 1200px)"
-                type="image/jpeg"
-              />
-              <source
-                srcset="./images/team/tablet/img1_tablet.jpg 1x, ./images/team/tablet/img1@2x_tablet.jpg 2x"
-                media="(min-width: 768px)"
-                type="image/jpeg"
-              />
-              <source
-                srcset="./images/team/mobile/img1_mobile.jpg 1x, ./images/team/mobile/img1@2x_mobile.jpg 2x"
-                media="(max-width: 767px)"
-                type="image/jpeg"
-              />
+              <source srcset="./images/team/desktop/img1_desktop.webp 1x, ./images/team/desktop/img1@2x_desktop.webp 2x"
+                media="(min-width: 1200px)" type="image/webp" />
+              <source srcset="./images/team/tablet/img1_tablet.webp 1x, ./images/team/tablet/img1@2x_tablet.webp 2x"
+                media="(min-width: 768px)" type="image/webp" />
+              <source srcset="./images/team/mobile/img1_mobile.webp 1x, ./images/team/mobile/img1@2x_mobile.webp 2x"
+                media="(max-width: 767px)" type="image/webp" />
+              <source srcset="./images/team/desktop/img1_desktop.jpg 1x, ./images/team/desktop/img1@2x_desktop.jpg 2x"
+                media="(min-width: 1200px)" type="image/jpeg" />
+              <source srcset="./images/team/tablet/img1_tablet.jpg 1x, ./images/team/tablet/img1@2x_tablet.jpg 2x"
+                media="(min-width: 768px)" type="image/jpeg" />
+              <source srcset="./images/team/mobile/img1_mobile.jpg 1x, ./images/team/mobile/img1@2x_mobile.jpg 2x"
+                media="(max-width: 767px)" type="image/jpeg" />
               <img src="./images/team/desktop/img1_desktop.jpg" width="450" alt="барбер Джон Смит" />
             </picture>
 
@@ -225,36 +206,18 @@
           </li>
           <li class="grid__item team__item">
             <picture>
-              <source
-                srcset="./images/team/desktop/img2_desktop.webp 1x, ./images/team/desktop/img2@2x_desktop.webp 2x"
-                media="(min-width: 1200px)"
-                type="image/webp"
-              />
-              <source
-                srcset="./images/team/tablet/img2_tablet.webp 1x, ./images/team/tablet/img2@2x_tablet.webp 2x"
-                media="(min-width: 768px)"
-                type="image/webp"
-              />
-              <source
-                srcset="./images/team/mobile/img2_mobile.webp 1x, ./images/team/mobile/img2@2x_mobile.webp 2x"
-                media="(max-width: 767px)"
-                type="image/webp"
-              />
-              <source
-                srcset="./images/team/desktop/img2_desktop.jpg 1x, ./images/team/desktop/img2@2x_desktop.jpg 2x"
-                media="(min-width: 1200px)"
-                type="image/jpeg"
-              />
-              <source
-                srcset="./images/team/tablet/img2_tablet.jpg 1x, ./images/team/tablet/img2@2x_tablet.jpg 2x"
-                media="(min-width: 768px)"
-                type="image/jpeg"
-              />
-              <source
-                srcset="./images/team/mobile/img2_mobile.jpg 1x, ./images/team/mobile/img2@2x_mobile.jpg 2x"
-                media="(max-width: 767px)"
-                type="image/jpeg"
-              />
+              <source srcset="./images/team/desktop/img2_desktop.webp 1x, ./images/team/desktop/img2@2x_desktop.webp 2x"
+                media="(min-width: 1200px)" type="image/webp" />
+              <source srcset="./images/team/tablet/img2_tablet.webp 1x, ./images/team/tablet/img2@2x_tablet.webp 2x"
+                media="(min-width: 768px)" type="image/webp" />
+              <source srcset="./images/team/mobile/img2_mobile.webp 1x, ./images/team/mobile/img2@2x_mobile.webp 2x"
+                media="(max-width: 767px)" type="image/webp" />
+              <source srcset="./images/team/desktop/img2_desktop.jpg 1x, ./images/team/desktop/img2@2x_desktop.jpg 2x"
+                media="(min-width: 1200px)" type="image/jpeg" />
+              <source srcset="./images/team/tablet/img2_tablet.jpg 1x, ./images/team/tablet/img2@2x_tablet.jpg 2x"
+                media="(min-width: 768px)" type="image/jpeg" />
+              <source srcset="./images/team/mobile/img2_mobile.jpg 1x, ./images/team/mobile/img2@2x_mobile.jpg 2x"
+                media="(max-width: 767px)" type="image/jpeg" />
 
               <img src="./images/team/desktop/img2_desktop.jpg" width="450" alt="барбер Микаель Доу" />
             </picture>
@@ -294,36 +257,18 @@
           </li>
           <li class="grid__item team__item">
             <picture>
-              <source
-                srcset="./images/team/desktop/img3_desktop.webp 1x, ./images/team/desktop/img3@2x_desktop.webp 2x"
-                media="(min-width: 1200px)"
-                type="image/webp"
-              />
-              <source
-                srcset="./images/team/tablet/img3_tablet.webp 1x, ./images/team/tablet/img3@2x_tablet.webp 2x"
-                media="(min-width: 768px)"
-                type="image/webp"
-              />
-              <source
-                srcset="./images/team/mobile/img3_mobile.webp 1x, ./images/team/mobile/img3@2x_mobile.webp 2x"
-                media="(max-width: 767px)"
-                type="image/webp"
-              />
-              <source
-                srcset="./images/team/desktop/img3_desktop.jpg 1x, ./images/team/desktop/img3@2x_desktop.jpg 2x"
-                media="(min-width: 1200px)"
-                type="image/jpeg"
-              />
-              <source
-                srcset="./images/team/tablet/img3_tablet.jpg 1x, ./images/team/tablet/img3@2x_tablet.jpg 2x"
-                media="(min-width: 768px)"
-                type="image/jpeg"
-              />
-              <source
-                srcset="./images/team/mobile/img3_mobile.jpg 1x, ./images/team/mobile/img3@2x_mobile.jpg 2x"
-                media="(max-width: 767px)"
-                type="image/jpeg"
-              />
+              <source srcset="./images/team/desktop/img3_desktop.webp 1x, ./images/team/desktop/img3@2x_desktop.webp 2x"
+                media="(min-width: 1200px)" type="image/webp" />
+              <source srcset="./images/team/tablet/img3_tablet.webp 1x, ./images/team/tablet/img3@2x_tablet.webp 2x"
+                media="(min-width: 768px)" type="image/webp" />
+              <source srcset="./images/team/mobile/img3_mobile.webp 1x, ./images/team/mobile/img3@2x_mobile.webp 2x"
+                media="(max-width: 767px)" type="image/webp" />
+              <source srcset="./images/team/desktop/img3_desktop.jpg 1x, ./images/team/desktop/img3@2x_desktop.jpg 2x"
+                media="(min-width: 1200px)" type="image/jpeg" />
+              <source srcset="./images/team/tablet/img3_tablet.jpg 1x, ./images/team/tablet/img3@2x_tablet.jpg 2x"
+                media="(min-width: 768px)" type="image/jpeg" />
+              <source srcset="./images/team/mobile/img3_mobile.jpg 1x, ./images/team/mobile/img3@2x_mobile.jpg 2x"
+                media="(max-width: 767px)" type="image/jpeg" />
               <img src="./images/team/desktop/img3_desktop.jpg" width="450" alt="барбер Алан Блэк" />
             </picture>
 
@@ -383,139 +328,102 @@
         </ul>
       </div>
     </section>
-    <!-- <div class="section--dark-bg">
-        <div class="container flexbox">
-          <section class="section content-box contact-us" id="contact-us">
-            <h2 class="title section__title title--light">Онлайн-запись</h2>
-            <form class="form">
-              <input
-                class="form__field"
-                type="text"
-                name="user_name"
-                placeholder="Имя*"
-                pattern="^[A-Za-zА-Яа-яЁё\s]+$"
-                required
-              />
-              <input
-                class="form__field"
-                type="tel"
-                name="user_phone"
-                pattern="[0-9]{10}"
-                placeholder="Телефон*"
-                required
-              />
-              <textarea
-                class="form__field form__message"
-                name="user_message"
-                cols="30"
-                rows="5"
-                placeholder="сообщение"
-              ></textarea>
-              <button class="button button--light" type="submit">отправить</button>
-            </form>
+    <div class="section--dark-bg">
+      <div class="container flexbox">
+        <section class="section content-box contact-us" id="contact-us">
+          <h2 class="title section__title title--light">Онлайн-запись</h2>
+          <form class="form">
+            <input class="form__field" type="text" name="user_name" placeholder="Имя*" pattern="^[A-Za-zА-Яа-яЁё\s]+$"
+              required />
+            <input class="form__field" type="tel" name="user_phone" pattern="[0-9]{10}" placeholder="Телефон*"
+              required />
+            <textarea class="form__field form__message" name="user_message" cols="30" rows="5"
+              placeholder="сообщение"></textarea>
+            <button class="button button--light" type="submit">отправить</button>
+          </form>
+        </section>
+        <section class="section content-box contacts" id="contacts">
+          <h2 class="title section__title title--light">Контакты</h2>
+          <address class="contacts__address">
+            <ul class="list contacts-list">
+              <li class="contacts-list__item">
+                <a class="link contacts-list__link" href="https://goo.gl/maps/N8CagacWKMSVXokV7" target="_blank"
+                  rel="noopener noreferrer">
+                  <svg class="icon">
+                    <use href="./images/sprite.svg#icon-map-pin"></use>
+                  </svg>
+                  ул. Васильковая, 7А Киев, 08132
+                </a>
+              </li>
+              <li class="contacts-list__item">
+                <a class="link contacts-list__link" href="tel:+380441111111">
+                  <svg class="icon">
+                    <use href="./images/sprite.svg#icon-phone"></use>
+                  </svg>
+                  +38 044 111 11 11
+                </a>
+              </li>
+              <li class="contacts-list__item">
+                <a class="link contacts-list__link" href="mailto:barbershop@email.com">
+                  <svg class="icon">
+                    <use href="./images/sprite.svg#icon-mail"></use>
+                  </svg>
+                  barbershop@email.com
+                </a>
+              </li>
+            </ul>
+          </address>
+          <section>
+            <h3 class="title-label title-label--light line">время работы</h3>
+            <p>Ежедневно с 9:00 до 22:00</p>
           </section>
-          <section class="section content-box contacts" id="contacts">
-            <h2 class="title section__title title--light">Контакты</h2>
-            <address class="contacts__address">
-              <ul class="list contacts-list">
-                <li class="contacts-list__item">
-                  <a
-                    class="link contacts-list__link"
-                    href="https://goo.gl/maps/N8CagacWKMSVXokV7"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <svg class="icon">
-                      <use href="./images/sprite.svg#icon-map-pin"></use>
-                    </svg>
-                    ул. Васильковая, 7А Киев, 08132
-                  </a>
-                </li>
-                <li class="contacts-list__item">
-                  <a class="link contacts-list__link" href="tel:+380441111111">
-                    <svg class="icon">
-                      <use href="./images/sprite.svg#icon-phone"></use>
-                    </svg>
-                    +38 044 111 11 11
-                  </a>
-                </li>
-                <li class="contacts-list__item">
-                  <a class="link contacts-list__link" href="mailto:barbershop@email.com">
-                    <svg class="icon">
-                      <use href="./images/sprite.svg#icon-mail"></use>
-                    </svg>
-                    barbershop@email.com
-                  </a>
-                </li>
-              </ul>
-            </address>
-            <section>
-              <h3 class="title-label title-label--light line">время работы</h3>
-              <p>Ежедневно с 9:00 до 22:00</p>
-            </section>
-          </section>
-        </div>
+        </section>
       </div>
-    </main> -->
-    <!-- <footer class="footer">
-      <div class="container footer__container">
-        <p class="copyright">&copy; Copyright 2020</p>
-        <ul class="list socials-list line">
-          <li class="socials-list__item">
-            <a class="link socials-list__link" href="" target="_blank" rel="noopener noreferrer">Instagram</a>
-          </li>
-          <li class="socials-list__item">
-            <a class="link socials-list__link" href="" target="_blank" rel="noopener noreferrer">Youtube</a>
-          </li>
-        </ul>
-      </div>
-    </footer>
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal section--dark-bg">
-        <button class="modal__btn-close" data-modal-close>X</button>
-        <p class="modal__title title--light">Свяжитесь с нами</p>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer__container">
+      <p class="copyright">&copy; Copyright 2020</p>
+      <ul class="list socials-list line">
+        <li class="socials-list__item">
+          <a class="link socials-list__link" href="" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </li>
+        <li class="socials-list__item">
+          <a class="link socials-list__link" href="" target="_blank" rel="noopener noreferrer">Youtube</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal section--dark-bg">
+      <button class="modal__btn-close" data-modal-close>X</button>
+      <p class="modal__title title--light">Свяжитесь с нами</p>
 
-        <form class="form modal-form">
-          <label class="modal-form__field-label form__field-label">
-            <input
-              class="form__field modal-form__field"
-              type="text"
-              placeholder=" "
-              name="user_name"
-              pattern="^[A-Za-zА-Яа-яЁё\s]+$"
-              required
-            />
-            <svg class="form__field-icon">
-              <use href="./images/sprite.svg#icon-map-pin"></use>
-            </svg>
-            <span class="form__field-text">Имя*</span>
-          </label>
-          <label class="modal-form__field-label form__field-label">
-            <input
-              class="form__field modal-form__field"
-              type="tel"
-              placeholder=" "
-              name="user_phone"
-              pattern="[0-9]{10}"
-              required
-            />
-            <svg class="form__field-icon">
-              <use href="./images/sprite.svg#icon-phone"></use>
-            </svg>
-            <span class="form__field-text">Телефон*</span>
-          </label>
-          <textarea
-            class="form__field form__message modal-form__message modal-form__field"
-            name="user_message"
-            cols="30"
-            rows="5"
-            placeholder="сообщение"
-          ></textarea>
-          <button class="button button--disabled button--light" type="submit" disabled>отправить</button>
-        </form>
-      </div>
-    </div> -->
-    <script src="./js/menu.js"></script>
-    <script src="./js/script.js"></script>
-  </body>
+      <form class="form modal-form">
+        <label class="modal-form__field-label form__field-label">
+          <input class="form__field modal-form__field" type="text" placeholder=" " name="user_name"
+            pattern="^[A-Za-zА-Яа-яЁё\s]+$" required />
+          <svg class="form__field-icon">
+            <use href="./images/sprite.svg#icon-map-pin"></use>
+          </svg>
+          <span class="form__field-text">Имя*</span>
+        </label>
+        <label class="modal-form__field-label form__field-label">
+          <input class="form__field modal-form__field" type="tel" placeholder=" " name="user_phone" pattern="[0-9]{10}"
+            required />
+          <svg class="form__field-icon">
+            <use href="./images/sprite.svg#icon-phone"></use>
+          </svg>
+          <span class="form__field-text">Телефон*</span>
+        </label>
+        <textarea class="form__field form__message modal-form__message modal-form__field" name="user_message" cols="30"
+          rows="5" placeholder="сообщение"></textarea>
+        <button class="button button--disabled button--light" type="submit" disabled>отправить</button>
+      </form>
+    </div>
+  </div>
+  <script src="./js/menu.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
 </html>
